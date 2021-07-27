@@ -52,5 +52,5 @@ We care for the eyes of the night owls - if your device has dark mode enabled, i
 Home View | Detail View
 |:-------------------------:|:-------------------------:|
 ![HomeView](https://user-images.githubusercontent.com/41966757/127171302-18d0586f-bee4-45b8-9741-310a20bb3d53.png)  |  ![DetailView](https://user-images.githubusercontent.com/41966757/127171315-7d1a0721-7b0b-490d-ad0d-4a5bea961736.png)
-**Notification alert setup** | **Dark Mode**
+**Notification setup alert** | **Dark Mode**
 ![AlertSetup](https://user-images.githubusercontent.com/41966757/127171305-9503a00b-6901-41f6-ae7f-9d332cab8515.png) | ![Dark Mode](https://user-images.githubusercontent.com/41966757/127171319-0689ab43-3b86-4ee8-ab0b-a0bc9b6093d8.png)
