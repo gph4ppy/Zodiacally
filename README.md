@@ -1,4 +1,4 @@
-![Zodiacally](https://user-images.githubusercontent.com/41966757/115121366-9eac0200-9fb2-11eb-84fd-dacb65d0daa6.png)
+![Zodiacally](https://user-images.githubusercontent.com/41966757/127169591-86945ed6-5d80-48d2-b668-4935a7f9e279.png)
 We have many important people in our lives - but as humans, we are unable to remember everything. Zodiacally is a simple and intuitive application designed to ensure that you never forget any birthdays again! 
 
 ## Download
@@ -36,6 +36,17 @@ We care for the eyes of the night owls - if your device has dark mode enabled, i
 ## Informations
 - The project is ended but will be further developed.
 - To copy the information, hold the card and tap the copy button.
+
+## Versions
+* **v2.0:**
+  * The entire user's graphic interface (GUI) was rebuilt.
+  * Fixed an error with notifications, which was caused by the same ID that was only the name. From now on, ID is a name combined with a string of random characters.
+  * Because most people use this application in Poland, I introduced support for the Polish language. The application will be translated automatically, based on system settings.
+  * Added accessibility support.
+  * Fixed a keyboard error that caused unexpected behavior in the GUI.
+  * Added new accent colors.
+* **v1.0:**
+  * Initial commit.
 
 ## Gallery
 Home | Profile
