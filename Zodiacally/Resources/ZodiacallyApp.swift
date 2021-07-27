@@ -6,15 +6,19 @@
 //
 
 import SwiftUI
+import IQKeyboardManagerSwift
 
 @main
 struct ZodiacallyApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .onAppear {
+                    IQKeyboardManager.shared.enable = true
+                }
         }
     }
 }

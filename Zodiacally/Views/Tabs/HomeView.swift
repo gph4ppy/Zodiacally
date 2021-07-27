@@ -12,7 +12,6 @@ struct HomeView: View {
     @ObservedObject private var keyboard        = KeyboardResponder()
     @State var selectedTab: String              = "person.circle"
     
-    /* ---------- Body ---------- */
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
             // Tab View - navigates through tabs

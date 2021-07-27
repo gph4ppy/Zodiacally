@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct PeopleViewNavBar: UIViewControllerRepresentable {
-    var view: PeopleTab
+    var view: PeopleList
     
     var onSearch: (String) -> ()
     var onCancel: () -> ()
     
-    init(view: PeopleTab, onSearch: @escaping (String) -> (), onCancel: @escaping () -> ()) {
+    init(view: PeopleList, onSearch: @escaping (String) -> (), onCancel: @escaping () -> ()) {
         self.view = view
         self.onSearch = onSearch
         self.onCancel = onCancel
@@ -24,12 +24,11 @@ struct PeopleViewNavBar: UIViewControllerRepresentable {
         let controller = UINavigationController(rootViewController: childView)
         
         // Setup NavBar
-        controller.navigationBar.topItem?.title = view.showingFavourites ? "Favorite people" : "People"
         controller.navigationBar.prefersLargeTitles = true
         
         // Setup SearchBar
         let searchController = UISearchController()
-        searchController.searchBar.placeholder = "Search"
+        searchController.searchBar.placeholder = LocalizedStrings.search
         searchController.obscuresBackgroundDuringPresentation = false
         
         searchController.searchBar.delegate = context.coordinator

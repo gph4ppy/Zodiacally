@@ -15,7 +15,7 @@ struct Person: Hashable {
     let group: String
     let isFavourite: Bool
     let about: String
-    let image: Data
+    let image: Data?
     let birthDate: Date
     let didSetNotification: Bool
 }

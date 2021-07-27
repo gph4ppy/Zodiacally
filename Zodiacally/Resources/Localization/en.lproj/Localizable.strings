@@ -1,0 +1,160 @@
+/* 
+  Localizable.strings
+  Zodiacally
+
+  Created by Jakub "GPH4PPY" Dąbrowski on 04/07/2021.
+  
+*/
+
+// MARK: - Welcome Screen #1
+"welcome_title_1" = "Welcome to Zodiacally!";
+"welcome_body_1" = "Birthday is the most important day of the year when, people celebrate the year of their lives. It is important to remember this day - after all, these are people who are close to us! We want to be with them in their most important moments, but not everything can be remembered.
+
+Zodiacally will help you remember the birthdays of people you know.";
+
+// MARK: - Welcome Screen #2
+"welcome_title_2" = "Introduce Yourself";
+"welcome_subtitle_2" = "It's important to remember about your birthday as well!";
+"i_am" = "I am...";
+
+// MARK: - Welcome Screen #3
+"welcome_title_3" = "Everything is done!";
+"welcome_body_3" = "You can switch to the home view by using the button below.";
+
+// MARK: - General
+"name" = "Name";
+"birthday" = "Birthday";
+"zodiac_sign" = "Zodiac Sign";
+"zodiac" = "Zodiac";
+"about" = "About";
+"about_me" = "About me";
+"cancel" = "Cancel";
+"save" = "Save";
+"search" = "Search...";
+"image" = "Image";
+
+// MARK: - People List
+"favorite_people" = "Favorite People";
+"people" = "People";
+
+// MARK: - New Person View
+"family" = "Family";
+"friends" = "Friends";
+"school" = "School";
+"work" = "Work";
+"about_person" = "This person is...";
+"group" = "Group";
+"add_person" = "Add Person";
+"empty_name_title" = "Where's the name?";
+"empty_name_body" = "The name field must be filled";
+
+// MARK: - Groups View
+"new_group" = "New Group";
+"add_new_group" = "Add new group";
+"groups" = "Groups";
+
+// MARK: - Accessibility
+"next_welcome_slide" = "Next welcome slide button";
+"add_photo_button" = "Add profile photo button";
+"show_home_screen" = "Show home screen button";
+"card_info" = "A card which contains informations about";
+"detail_image" = "An image of";
+"your_profile_image" = "Your profile image";
+"go_back" = "Go back to previous page";
+"show_edit_actions" = "Show edit actions";
+"add_person_to_favs" = "Add person to favorites";
+"remove_person_from_favs" = "Remove person from favorites";
+"add_notification" = "Add notification about birthday";
+"remove_notification" = "Remove notification about birthday";
+"add_new_group" = "Add a new group";
+
+// MARK: - Context Menu
+"copy_name" = "Copy name";
+"copy_birthday" = "Copy birthday";
+"copy_zodiac_sign" = "Copy zodiac sign";
+"copy_about_info" = "Copy informations about";
+
+// MARK: Detail View
+"edit_mode" = "Edit Mode";
+"edit_sheet_body" = "What would you like to change?";
+
+// --- NAME ---
+"change_name_title" = "Change Name";
+"change_name_body" = "Type the new name below";
+"change_name_placeholder" = "New name";
+
+// --- Group ---
+"edit_group_title" = "Edit Group";
+"edit_group_body" = "Type name of the new group below";
+"edit_group_placeholder" = "e. g. Family, School, Friends";
+
+// --- Favorites ---
+"added_to_favs" = "has been added to favorites.";
+"removed_from_favs" = "has been removed from favorites.";
+
+// --- Notifications ---
+"choose_notification_time" = "Choose notification time";
+"notification_title" = "🎂 IT'S BIRTHDAY TIME 🎂";
+"turns" = "turns";
+"today" = " today";
+"notification_alert_title" = "Success";
+"notification_alert_body" = "Successfully set birthday reminder on";
+
+// --- About --- 
+"edit_about" = "Edit About";
+
+// MARK: - Zodiac Signs
+"aries" = "Aries";
+"taurus" = "Taurus";
+"gemini" = "Gemini";
+"cancer" = "Cancer";
+"leo" = "Leo";
+"virgo" = "Virgo";
+"libra" = "Libra";
+"scorpio" = "Scorpio";
+"sagittarius" = "Sagittarius";
+"capricorn" = "Capricorn";
+"aquarius" = "Aquarius";
+"pisces" = "Pisces";
+
+// MARK: - Settings
+"informations" = "Informations";
+"settings" = "Settings";
+"change_birthday" = "Change birthday";
+"edit_about_me" = "Edit about me";
+"accent_color" = "Accent color";
+"edit_groups" = "Edit groups";
+"clear_notifications" = "Clear notifications";
+"version" = "Version";
+"choose_birthday" = "Choose birthday";
+
+// --- Credits ---
+"credits_title" = "Credits and licenses";
+"credits_body" = "The application uses such pod as IQKeyboardManager, which allows preventing the issue of the keyboard sliding up and covering UITextField/UITextView.
+
+License:
+MIT License
+
+Copyright (c) 2013-2017 Iftekhar Qurashi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
+
+// --- Clear ---
+"clear" = "Clear";
+"clear_notifications_body" = "Are you sure you want to clear all notifications for people in application?";
+
+// MARK: - Colors
+"red" = "Red";
+"green" = "Green";
+"blue" = "Blue";
+"pink" = "Pink";
+"purple" = "Purple";
+"yellow" = "Yellow";
+"cyan" = "Cyan";
+"mint" = "Mint";
+"gray" = "Gray";
+"orange" = "Orange";

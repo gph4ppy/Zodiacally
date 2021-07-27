@@ -9,18 +9,26 @@ import SwiftUI
 
 struct TabButton: View {
     // Properties
-    @AppStorage("accentColor") private var accentColor: String      = "Purple"
     @Binding var selectedTab: String
-    var imageName: String
-    let userDataManager                                             = UserDataManager()
+    @AppStorage("accentColor") private var accentColor: String = "Purple"
+    let imageName: String
     
-    /* ---------- Body ---------- */
     var body: some View {
-        Button(action: { selectedTab = imageName }) {
+        Button(action: { withAnimation { selectedTab = imageName } }) {
             Image(systemName: imageName)
                 .renderingMode(.template)
-                .foregroundColor(selectedTab == imageName ? userDataManager.setAccentColor(from: accentColor) : .gray)
+                .foregroundColor(selectedTab == imageName ? UserDataManager.shared.setAccentColor(from: accentColor) : .gray)
                 .padding()
+                .accessibility(label: assignAccessibilityLabel(imageName: imageName))
+        }
+    }
+    
+    private func assignAccessibilityLabel(imageName: String) -> Text {
+        switch imageName {
+            case "person.circle": return Text(LocalizedStrings.people)
+            case "heart.text.square": return Text(LocalizedStrings.favoritePeople)
+            case "gear": return Text(LocalizedStrings.settings)
+            default: return Text("")
         }
     }
 }

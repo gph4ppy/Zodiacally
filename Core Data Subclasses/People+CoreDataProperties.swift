@@ -22,7 +22,7 @@ extension People {
     @NSManaged public var isFavourite: Bool
     @NSManaged public var about: String
     @NSManaged public var displayOrder: Int16
-    @NSManaged public var image: Data
+    @NSManaged public var image: Data?
     @NSManaged public var birthDate: Date
     @NSManaged public var didSetNotification: Bool
 }

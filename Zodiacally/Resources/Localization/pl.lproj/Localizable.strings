@@ -1,0 +1,160 @@
+/* 
+  Localizable.strings
+  Zodiacally
+
+  Created by Jakub "GPH4PPY" Dąbrowski on 04/07/2021.
+  
+*/
+
+// MARK: - Welcome Screen #1
+"welcome_title_1" = "Witaj w Zodiacally!";
+"welcome_body_1" = "Urodziny to najważniejszy dzień w roku, kiedy ludzie świętują kolejny rok ich życia. To ważne, aby zapamiętać ten dzień - to są ludzie dla nas bardzo ważni! Chcemy być z nimi w najważniejszych, dla nich, momentach, lecz nie wszystko można zapamiętać.
+
+Zodiacally pomoże Ci w zapamiętaniu urodzin ludzi, których znasz.";
+
+// MARK: - Welcome Screen #2
+"welcome_title_2" = "Przedstaw się";
+"welcome_subtitle_2" = "To istotne, aby pamiętać również o swoich urodzinach!";
+"i_am" = "Jestem...";
+
+// MARK: - Welcome Screen #3
+"welcome_title_3" = "Wszystko gotowe!";
+"welcome_body_3" = "Możesz przełączyć się na menu główne poprzez użycie przycisku poniżej.";
+
+// MARK: - General
+"name" = "Imię";
+"birthday" = "Urodziny";
+"zodiac_sign" = "Znak zodiaku";
+"zodiac" = "Zodiak";
+"about" = "Informacje";
+"about_me" = "O mnie";
+"cancel" = "Anuluj";
+"save" = "Zapisz";
+"search" = "Szukaj...";
+"image" = "Zdjęcie";
+
+// MARK: - People List
+"favorite_people" = "Ulubieni ludzie";
+"people" = "Ludzie";
+
+// MARK: - New Person View
+"family" = "Rodzina";
+"friends" = "Przyjaciele";
+"school" = "Szkoła";
+"work" = "Praca";
+"about_person" = "Ta osoba jest...";
+"group" = "Grupa";
+"add_person" = "Dodaj osobę";
+"empty_name_title" = "Gdzie jest imię?";
+"empty_name_body" = "Pole z imieniem musi być uzupełnione";
+
+// MARK: - Groups View
+"new_group" = "Nowa grupa";
+"add_new_group" = "Dodaj nową grupę";
+"groups" = "Grupy";
+
+// MARK: - Accessibility
+"next_welcome_slide" = "Przycisk następnego slajdu powitalnego";
+"add_photo_button" = "Przycisk do dodawania zdjęcia profilowego";
+"show_home_screen" = "Show home screen button";
+"card_info" = "Karta zawierająca informacje na temat";
+"detail_image" = "Zdjęcie przedstawiające";
+"your_profile_image" = "Twoje zdjęcie profilowe";
+"go_back" = "Cofnij do poprzedniej strony";
+"show_edit_actions" = "Pokaż funkcje edycji";
+"add_person_to_favs" = "Dodaj osobę do ulubionych";
+"remove_person_from_favs" = "Usuń osobę z ulubionych";
+"add_notification" = "Dodaj powiadomienie o urodzinach";
+"remove_notification" = "Usuń powiadomienie o urodzinach";
+"add_new_group" = "Dodaj nową grupę";
+
+// MARK: - Context Menu
+"copy_name" = "Kopiuj imię";
+"copy_birthday" = "Kopiuj datę urodzin";
+"copy_zodiac_sign" = "Kopiuj znak zodiaku";
+"copy_about_info" = "Kopiuj informacje o osobie";
+
+// MARK: Detail View
+"edit_mode" = "Tryb edycji";
+"edit_sheet_body" = "Co byś chciał zmienić?";
+
+// --- NAME ---
+"change_name_title" = "Zmień imię";
+"change_name_body" = "Wpisz nowe imię poniżej";
+"change_name_placeholder" = "Nowe imię";
+
+// --- Group ---
+"edit_group_title" = "Edytuj grupę";
+"edit_group_body" = "Wpisz nową nazwę grupy poniżej";
+"edit_group_placeholder" = "np. Rodzina, Szkoła, Znajomi";
+
+// --- Favorites ---
+"added_to_favs" = "został(a) dodany do ulubionych.";
+"removed_from_favs" = "został(a) usunięta z ulubionych.";
+
+// --- Notifications ---
+"choose_notification_time" = "Wybierz godzinę powiadomienia";
+"notification_title" = "🎂 TO CZAS URODZIN 🎂";
+"turns" = "kończy dzisiaj";
+"today" = "";
+"notification_alert_title" = "Sukces";
+"notification_alert_body" = "Pomyślnie ustawiono przypomnienie w dniu urodzin";
+
+// --- About ---
+"edit_about" = "Edytuj informacje";
+
+// MARK: - Zodiac Signs
+"aries" = "Baran";
+"taurus" = "Byk";
+"gemini" = "Bliźnięta";
+"cancer" = "Rak";
+"leo" = "Lew";
+"virgo" = "Panna";
+"libra" = "Waga";
+"scorpio" = "Skorpion";
+"sagittarius" = "Strzelec";
+"capricorn" = "Koziorożec";
+"aquarius" = "Wodnik";
+"pisces" = "Ryby";
+
+// MARK: - Settings
+"informations" = "Informacje";
+"settings" = "Ustawienia";
+"change_birthday" = "Zmień datę urodzin";
+"edit_about_me" = "Edytuj informacje o mnie";
+"accent_color" = "Kolor elementów";
+"edit_groups" = "Edytuj grupy";
+"clear_notifications" = "Wyczyść powiadomienia";
+"version" = "Wersja";
+"choose_birthday" = "Wybierz datę urodzin";
+
+// --- Credits ---
+"credits_title" = "Uznania i licencje";
+"credits_body" = "Aplikacja używa takich podów jak IQKeyboardManager, który zapobiega problemowi wysuwania się klawiatury i zasłaniania pól tekstowych (UITextField/UITextView).
+
+Licencja:
+MIT License
+
+Copyright (c) 2013-2017 Iftekhar Qurashi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
+
+// --- Clear ---
+"clear" = "Wyczyść";
+"clear_notifications_body" = "Czy jesteś pewny, że chcesz wyczyścić wszystkie powiadomienia dotyczące osób wpisanych do aplikacji?";
+
+// MARK: - Colors
+"red" = "Czerwony";
+"green" = "Zielony";
+"blue" = "Niebieski";
+"pink" = "Różowy";
+"purple" = "Fioletowy";
+"yellow" = "Żółty";
+"cyan" = "Cyjanowy";
+"mint" = "Miętowy";
+"gray" = "Szary";
+"orange" = "Pomarańczowy";

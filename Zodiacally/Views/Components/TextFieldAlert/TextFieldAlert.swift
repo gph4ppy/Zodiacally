@@ -39,13 +39,13 @@ struct TextFieldAlert: UIViewControllerRepresentable {
             
             ac.textFields?[0].clearButtonMode = .always
 
-            ac.addAction(UIAlertAction(title: "Cancel", style: .destructive) { _ in
+            ac.addAction(UIAlertAction(title: LocalizedStrings.cancel, style: .destructive) { _ in
                 ac.dismiss(animated: true) {
                     self.showingAlert = false
                 }
             })
 
-            ac.addAction(UIAlertAction(title: "Save", style: .default) { _ in
+            ac.addAction(UIAlertAction(title: LocalizedStrings.save, style: .default) { _ in
                 if let textField = ac.textFields?[0], let text = textField.text {
                     self.text = text
                 }

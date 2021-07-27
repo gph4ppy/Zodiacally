@@ -11,10 +11,10 @@ struct LabelStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.caption)
-            .foregroundColor(Color(.systemBackground))
+            .foregroundColor(.white)
             .padding(.horizontal, 5.0)
             .padding(.vertical, 2.0)
-            .background(Color(.tertiaryLabel))
+            .background(Color(.darkGray))
             .clipShape(Capsule())
     }
 }

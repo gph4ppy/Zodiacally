@@ -12,7 +12,6 @@ struct TabBar: View {
     @Binding var selectedTab: String
     let tabs = ["person.circle", "heart.text.square", "gear"]
     
-    /* ---------- Body ---------- */
     var body: some View {
         HStack(spacing: 10) {
             ForEach(tabs, id: \.self) { imageName in
