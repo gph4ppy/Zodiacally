@@ -1,8 +1,8 @@
-![Zodiacally](https://user-images.githubusercontent.com/41966757/115121366-9eac0200-9fb2-11eb-84fd-dacb65d0daa6.png)
+![Zodiacally](https://user-images.githubusercontent.com/41966757/127169591-86945ed6-5d80-48d2-b668-4935a7f9e279.png)
 We have many important people in our lives - but as humans, we are unable to remember everything. Zodiacally is a simple and intuitive application designed to ensure that you never forget any birthdays again! 
 
 ## Download
-![Zodiacally - App Store](https://user-images.githubusercontent.com/41966757/115519826-d99b8780-a289-11eb-9cd5-f74cd26d501e.png)
+![Zodiacally - App Store](https://user-images.githubusercontent.com/41966757/127171036-a3b52b31-ccd4-4eaf-9877-962ef1cfe2a3.png)
 Zodiacally is available on the AppStore - you can try it out yourself.
 To download it, click on the link below.
 
@@ -37,9 +37,20 @@ We care for the eyes of the night owls - if your device has dark mode enabled, i
 - The project is ended but will be further developed.
 - To copy the information, hold the card and tap the copy button.
 
+## Versions
+* **v2.0:**
+  * The entire user's graphic interface (GUI) was rebuilt.
+  * Fixed an error with notifications, which was caused by the same ID that was only the name. From now on, ID is a name combined with a string of random characters.
+  * Because most people use this application in Poland, I introduced support for the Polish language. The application will be translated automatically, based on system settings.
+  * Added accessibility support.
+  * Fixed a keyboard error that caused unexpected behavior in the GUI.
+  * Added new accent colors.
+* **v1.0:**
+  * Initial commit.
+
 ## Gallery
-Home | Profile
+Home View | Detail View
 |:-------------------------:|:-------------------------:|
-![HomeView](https://user-images.githubusercontent.com/41966757/115520706-b9b89380-a28a-11eb-9c52-451b1597e731.png)  |  ![DetailView](https://user-images.githubusercontent.com/41966757/115520719-bde4b100-a28a-11eb-842e-f4053fdb41b9.png)
-**Settings** | **Dark Mode**
-![SettingsView](https://user-images.githubusercontent.com/41966757/115520715-bcb38400-a28a-11eb-8254-8fe2b7a259ad.png) | ![Dark Mode](https://user-images.githubusercontent.com/41966757/115520726-be7d4780-a28a-11eb-957c-11bc3a1fdf0b.png)
+![HomeView](https://user-images.githubusercontent.com/41966757/127171302-18d0586f-bee4-45b8-9741-310a20bb3d53.png)  |  ![DetailView](https://user-images.githubusercontent.com/41966757/127171315-7d1a0721-7b0b-490d-ad0d-4a5bea961736.png)
+**Notification alert setup** | **Dark Mode**
+![AlertSetup](https://user-images.githubusercontent.com/41966757/127171305-9503a00b-6901-41f6-ae7f-9d332cab8515.png) | ![Dark Mode](https://user-images.githubusercontent.com/41966757/127171319-0689ab43-3b86-4ee8-ab0b-a0bc9b6093d8.png)
