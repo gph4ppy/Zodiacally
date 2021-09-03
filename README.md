@@ -8,7 +8,7 @@ To download it, click on the link below.
 
 <p align="center">
   <a href="https://apps.apple.com/pl/app/zodiacally-birthday-manager/id1563743635?l=en">
-    <img alt="Download on the App Store" title="App Store" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="140">
+    <img alt="Download on the App Store" title="Zodiacally on App Store" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="200">
   </a>
 </p>
 
