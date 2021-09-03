@@ -6,7 +6,11 @@ We have many important people in our lives - but as humans, we are unable to rem
 Zodiacally is available on the AppStore - you can try it out yourself.
 To download it, click on the link below.
 
-https://apps.apple.com/pl/app/zodiacally-birthday-manager/id1563743635?l=en
+<p align="center">
+  <a href="https://apps.apple.com/pl/app/zodiacally-birthday-manager/id1563743635?l=en">
+    <img alt="Download on the App Store" title="App Store" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="140">
+  </a>
+</p>
 
 
 ## Features
