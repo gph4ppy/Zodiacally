@@ -35,7 +35,7 @@ We care for the eyes of the night owls - if your device has dark mode enabled, i
 ## Tech
 - SwiftUI
 - CoreData
-- UserDefaults
+- IQKeyboardManagerSwift
 
 ## Informations
 - The project is ended but will be further developed.
